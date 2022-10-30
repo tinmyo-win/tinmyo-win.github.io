@@ -1,0 +1,8 @@
+.footer-contaienr {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link {
+    margin: 20px 40px;
+}
