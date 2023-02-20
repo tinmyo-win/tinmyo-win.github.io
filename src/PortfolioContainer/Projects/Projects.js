@@ -34,8 +34,10 @@ const Projects = () => {
                                 <li key={i}>{tool}</li>
                             ))}
                         </ol>
+                        <div className='footer'>
                         <a href={project.sourceCode}> Source Code <i className="fa fa-github"></i></a>
                         <a href={project.demoLink}> Demo <i className="fa fa-external-link"></i></a>
+                        </div>
                     </div>
                 </div>
             )
